@@ -351,6 +351,61 @@ h1 {
 }
 /* PORTFOLIO END */
 
+/* FORM STYLES */
+
+.form__container {
+  margin: 0 auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.form__container h2 {
+  text-align: center;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario__input,.formulario__select {
+  background-color: #e2eaff;
+  width: 250px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  outline: 3px solid #7d96b8;
+}
+
+
+
+.formulario__input-enviar {
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px 20px;
+  background-color: #18233f;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+  .formulario__input,.formulario__select {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .form__container h2 {
+    font-size: 2.4rem;
+  }
+
+  .formulario__input-enviar {
+    margin-bottom: 40px;
+  }
+}
 
 .footer {
   background-color: #406293;
