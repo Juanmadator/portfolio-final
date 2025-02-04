@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Manuel Adame - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- metodología BEM para nombrar clases -->
+    <header class="header">
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <!-- un solo guion es un elemento -->
+        <label for="open-menu" class="header__open-nav-button" role="button">
+            <!-- icono de menu hamburguesa -->
+            <i class="bi bi-list"></i>
+        </label>
+        <div class="header__logo-container">
+            <img src="logo.svg" alt="Juan Manuel Adame" class="header__logo">
+            <img src="logo2.svg" alt="Juan Manuel Adame" class="logo--mobile">
+        </div>
+
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item"><a href="">Profile</a></li>
+                <li class="header__nav-item"><a href="">Portfolio</a></li>
+                <li class="header__nav-item"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile">
+        <div class="profile-wrapper">
+            <div class="profile__img-container">
+
+                <img src="juanmaMovil.jpg" alt="" id="juanmaMovil" class="profile__img">
+
+            </div>
+
+            <div class="profile__data-container">
+
+                <div class="profile__img-container">
+                <img src="juanmaMovil.jpg" alt="" class="profile__img">
+
+                </div>
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <h1>Juan Manuel Adame</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatum aliquam aperiam
+                            laudantium atque tenetur sequi, perferendis quae possimus pariatur. Adipisci inventore
+                            nesciunt neque suscipit quo repudiandae repellat velit odit. Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Fugit illum excepturi ipsum odio, deleniti explicabo maiores
+                            rerum unde omnis. Aut esse amet, odit repellendus minus consectetur dignissimos! Nostrum,
+                            quia corporis.</p>
+                    </div>
+
+                    <div class="profile__skills-container">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--100">
+                                        100%
+                                    </div>
+
+                                </div>
+
+                                <span class="profile__skill-name">HTML</span>
+
+
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--90">
+                                        90%
+                                    </div>
+
+                                </div>
+                                <span class="profile__skill-name">CSS</span>
+
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">
+                                        80%
+                                    </div>
+
+                                </div>
+                                <span class="profile__skill-name">JS</span>
+
+                            </li>
+
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">
+                                        80%
+                                    </div>
+
+                                </div>
+                                <span class="profile__skill-name">SQL</span>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="portfolio">
+        <h2 class="portfolio__title">PORTFOLIO</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Proyect</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Proyect</h2>
+            </div>
+
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Proyect</h2>
+            </div>
+
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Proyect</h2>
+            </div>
+
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Proyect</h2>
+            </div>  <div class="portfolio__project">
+                <h2 class="portfolio__project-name">Proyect</h2>
+            </div>
+
+            
+
+           
+        </div>
+    </section>
+
+
+    <section class="form__container">
+        <h2>Contact</h2>
+        <form action="" class="formulario">
+            <input type="text" class="formulario__input" placeholder="Nombre">
+            <input type="email" class="formulario__input" placeholder="Email">
+
+            <select name="" id="" class="formulario__select">
+                <option value="" class="formulario__option">Trabajo</option>
+                <option value="" class="formulario__option">Trabajo</option>
+                <option value="" class="formulario__option">Trabajo</option>
+
+            </select>
+           <input type="submit" class="formulario__input-enviar" value="Enviar">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <span>Juan Manuel Adame Torronteras</span>
+    </footer>
+
+</html>
