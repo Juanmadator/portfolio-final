@@ -355,8 +355,14 @@ h1 {
 
 .form__container {
   margin: 0 auto;
-  width: 90%;
   padding: 10px;
+  background-color: #406293;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  max-width: 90%;
+  padding-bottom: 40px;
+  color: white;
 }
 
 .form__container h2 {
@@ -368,7 +374,8 @@ h1 {
   flex-direction: column;
 }
 
-.formulario__input,.formulario__select {
+.formulario__input,
+.formulario__select {
   background-color: #e2eaff;
   width: 250px;
   padding: 10px;
@@ -379,8 +386,6 @@ h1 {
   outline: 3px solid #7d96b8;
 }
 
-
-
 .formulario__input-enviar {
   margin: 0 auto;
   width: 200px;
@@ -390,10 +395,25 @@ h1 {
   border: 2px solid white;
   border-radius: 10px;
   margin-top: 20px;
+  transition: 0.3s all ease;
+}
+
+.formulario__input-enviar:hover{
+  cursor: pointer;
+  background-color: #3b4c77;
+}
+
+.formulario__politica {
+  width: 250px;
+  margin: auto;
 }
 
 @media screen and (min-width: 1200px) {
-  .formulario__input,.formulario__select {
+  .form__container {
+    max-width: 30%;
+  }
+  .formulario__input,
+  .formulario__select {
     width: 400px;
     margin-bottom: 20px;
   }
