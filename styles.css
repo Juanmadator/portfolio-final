@@ -408,6 +408,12 @@ h1 {
   margin: auto;
 }
 
+.label{
+  width: 250px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
 @media screen and (min-width: 1200px) {
   .form__container {
     max-width: 30%;
